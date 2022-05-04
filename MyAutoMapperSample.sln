@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MyAutoMapperSample.Model", "MyAutoMapperSample.Model\MyAutoMapperSample.Model.csproj", "{7DD6B4FB-205B-4B78-9CEC-CCF526240397}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MyAutoMapperSample.Eight", "MyAutoMapperSample.Eight\MyAutoMapperSample.Eight.csproj", "{1D115578-2FB3-45F8-9803-93DD70185962}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MyAutoMapperSample.Eleven", "MyAutoMapperSample.Eleven\MyAutoMapperSample.Eleven.csproj", "{B1B26732-C26E-4CDD-96C8-DCF6890EC2DB}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{7DD6B4FB-205B-4B78-9CEC-CCF526240397}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7DD6B4FB-205B-4B78-9CEC-CCF526240397}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7DD6B4FB-205B-4B78-9CEC-CCF526240397}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7DD6B4FB-205B-4B78-9CEC-CCF526240397}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1D115578-2FB3-45F8-9803-93DD70185962}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1D115578-2FB3-45F8-9803-93DD70185962}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1D115578-2FB3-45F8-9803-93DD70185962}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1D115578-2FB3-45F8-9803-93DD70185962}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B1B26732-C26E-4CDD-96C8-DCF6890EC2DB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B1B26732-C26E-4CDD-96C8-DCF6890EC2DB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B1B26732-C26E-4CDD-96C8-DCF6890EC2DB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B1B26732-C26E-4CDD-96C8-DCF6890EC2DB}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
