@@ -9,7 +9,7 @@ public class MyAutomMapperConfiguration
     {
         return new MapperConfiguration(cfg =>
             {
-                //cfg.CreateMap(typeof(Property<>), typeof(Property<>));
+                cfg.CreateMap(typeof(Property<>), typeof(Property<>));
                 cfg.CreateMap<NestedObject, NestedObjectProperties>()
                     .ForMember(dest => dest.AccountId, opt 
                         => opt.MapFrom(src => new Property<int>(src.AccountId)))
