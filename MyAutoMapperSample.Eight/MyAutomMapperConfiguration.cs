@@ -9,7 +9,7 @@ public class MyAutomMapperConfiguration
     {
         return new MapperConfiguration(cfg =>
             {
-                cfg.CreateMap(typeof(Property<>), typeof(Property<>));
+                //cfg.CreateMap(typeof(Property<>), typeof(Property<>));
                 cfg.CreateMap<NestedObject, NestedObjectProperties>()
                     .ForMember(dest => dest.AccountId, opt 
                         => opt.MapFrom(src => new Property<int>(src.AccountId)))
@@ -22,6 +22,9 @@ public class MyAutomMapperConfiguration
                     .ForMember(dest => dest.User, opt
                         => opt.MapFrom(src => src));
 
+                cfg.CreateMap<UserPropertiesContainer, User>()
+                    .ConvertUsing<UserLookupUpsertModelTypeConverter>();
+                
                 cfg.CreateMap<User, UserProperties>()
                     .ForMember(dest => dest.UserStoreId, 
                         opt => opt.MapFrom(src => new Property<Guid>(src.UserStoreId)))

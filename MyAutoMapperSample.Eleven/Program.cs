@@ -8,7 +8,8 @@ config.AssertConfigurationIsValid();
 var user = new Fixture().Create<User>();
 
 var mapper = new AutoMapper.Mapper(config);
-var properties = mapper.Map<User, UserPropertiesContainer>(user);
-
-Console.WriteLine($"{properties.UserStoreId}");
 Console.WriteLine("I'm AutoMapper 11 and I'm NOT happy!");
+
+
+var properties = mapper.Map<User, UserPropertiesContainer>(user);
+Console.WriteLine($"{properties.UserStoreId}");

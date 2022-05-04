@@ -3,7 +3,7 @@ using MyAutoMapperSample.Model;
 
 namespace MyAutoMapperSample.Eleven;
 
-public class MyAutomMapperConfiguration
+public static class MyAutomMapperConfiguration
 {
     public static MapperConfiguration GetConfiguration()
     {
@@ -15,7 +15,10 @@ public class MyAutomMapperConfiguration
                         => opt.MapFrom(src => new Property<int>(src.AccountId)))
                     .ForMember(dest => dest.EmployerId, opt 
                         => opt.MapFrom(src => new Property<int>(src.EmployerId)));
-        
+
+                cfg.CreateMap<UserPropertiesContainer, User>()
+                    .ConvertUsing<UserLookupUpsertModelTypeConverter>();
+                
                 cfg.CreateMap<User, UserPropertiesContainer>()
                     .ForMember(dest => dest.UserStoreId,
                         opt => opt.MapFrom(src => src.UserStoreId))
