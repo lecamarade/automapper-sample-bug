@@ -3,7 +3,7 @@ using MyAutoMapperSample.Model;
 
 namespace MyAutoMapperSample.Eight;
 
-public class MyAutomMapperConfiguration
+public static class MyAutomMapperConfiguration
 {
     public static MapperConfiguration GetConfiguration()
     {
