@@ -6,6 +6,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MyAutoMapperSample.Eight", 
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MyAutoMapperSample.Eleven", "MyAutoMapperSample.Eleven\MyAutoMapperSample.Eleven.csproj", "{B1B26732-C26E-4CDD-96C8-DCF6890EC2DB}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ghist", "Ghist\Ghist.csproj", "{DCA4F2B4-1F4D-48A9-8A09-FFA41B7D1DF0}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -24,5 +26,9 @@ Global
 		{B1B26732-C26E-4CDD-96C8-DCF6890EC2DB}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B1B26732-C26E-4CDD-96C8-DCF6890EC2DB}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B1B26732-C26E-4CDD-96C8-DCF6890EC2DB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DCA4F2B4-1F4D-48A9-8A09-FFA41B7D1DF0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DCA4F2B4-1F4D-48A9-8A09-FFA41B7D1DF0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DCA4F2B4-1F4D-48A9-8A09-FFA41B7D1DF0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DCA4F2B4-1F4D-48A9-8A09-FFA41B7D1DF0}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
